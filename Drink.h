@@ -1,11 +1,12 @@
 #pragma once
 #include "Item.h"
 
-class FDrink
+class FDrink : public FItem
 {
 public:
 	FDrink();
 	virtual ~FDrink();
 
+	void EatDrink();
 };
 

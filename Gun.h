@@ -1,11 +1,12 @@
 #pragma once
 #include "Item.h"
 
-class FGun
+class FGun : public FItem
 {
 public:
 	FGun();
 	virtual ~FGun();
 
+	void UseGun();
 };
 

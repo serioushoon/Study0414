@@ -7,3 +7,7 @@ FKnife::FKnife()
 FKnife::~FKnife()
 {
 }
+
+void FKnife::UseKnife()
+{
+}

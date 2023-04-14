@@ -1,11 +1,13 @@
 #pragma once
 #include "Item.h"
 
-class FBread
+class FBread : public FItem
 {
 public:
 	FBread();
 	virtual ~FBread();
+
+	void EatBread();
 
 };
 

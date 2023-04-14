@@ -5,6 +5,7 @@ public:
 	FCharicter();
 	virtual ~FCharicter();
 
+	void ShowInventory();
 
 
 };

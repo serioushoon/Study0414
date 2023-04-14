@@ -1,12 +1,12 @@
 #pragma once
 #include "Item.h"
 
-class FKnife
+class FKnife : public FItem
 {
 public:
 	FKnife();
 	virtual ~FKnife();
 
-
+	void UseKnife();
 };
 
